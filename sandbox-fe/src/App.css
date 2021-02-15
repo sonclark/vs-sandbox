@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-.edit-text {
-  animation: Edit-text-color-cycle 10s infinite linear;
-  color: red;
-}
-
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -40,41 +34,5 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-@keyframes Edit-text-color-cycle {
-  0% {
-    color: red;
-  }
-  10% {
-    color: orangered;
-  }
-  20% {
-    color: orange;
-  }
-  30% {
-    color: yellow;
-  }
-  40% {
-    color: yellowgreen;
-  }
-  50% {
-    color: greenyellow;
-  }
-  60% {
-    color: green;
-  }
-  70% {
-    color: lightseagreen;
-  }
-  80% {
-    color: blue,
-  }
-  90% {
-    color: blueviolet;
-  }
-  100% {
-    color: purple;
   }
 }

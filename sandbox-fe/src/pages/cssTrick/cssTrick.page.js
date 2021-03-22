@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, SimpleDialog } from '@material-ui/core'
 
 
 const CSSTrick = (props) => {
@@ -6,7 +7,9 @@ const CSSTrick = (props) => {
     console.log(testProps)
     return (
         <div>
-            {testProps}
+            <Button variant="outlined" color="primary" onClick={() => {}}>
+                Open simple dialog
+            </Button>
         </div>
     )
 }
